@@ -15,3 +15,25 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+    position: relative;
+    left: 47px;
+}
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+}
+
