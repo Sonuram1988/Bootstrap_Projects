@@ -37,3 +37,19 @@
     border-radius: 0px;
 }
 
+@media only screen and (max-width:768px){
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    #top_nav{
+        padding: 0;
+    }
+}
+
+
